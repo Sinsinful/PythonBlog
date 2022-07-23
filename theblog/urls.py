@@ -1,6 +1,5 @@
 from unicodedata import category
 from django.urls import path
-
 from theblog.models import Category
 from .views import AddPostView, HomeView, ArticleDetailView, UpdatePostView, UpdatePostView, DeletePostView, AddCategoryView, CategoryView
 
